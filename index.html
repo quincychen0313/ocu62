@@ -12,7 +12,7 @@
 #stage{position:fixed;inset:0;overflow:hidden;isolation:isolate;background:#050b10}#starfield,#fallback{position:absolute;inset:0;width:100%;height:100%;display:block}#fallback{display:none}.vignette{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 44%,transparent 46%,rgba(0,3,6,.15) 100%);z-index:1}#scroll-space{display:block;height:1300vh;height:1300svh;pointer-events:none;overflow-anchor:none}body.scroll-mode{overflow-y:auto;overflow-x:hidden}
 .chrome{transition:opacity .55s,transform .55s}.header{position:fixed;z-index:5;left:40px;right:40px;top:max(30px,env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;pointer-events:none}.signature{display:flex;align-items:center;gap:13px;pointer-events:auto;user-select:none}.emblem{width:31px;height:31px;position:relative}.emblem:before,.emblem:after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:linear-gradient(90deg,transparent,rgba(239,249,253,.94),transparent);width:28px;height:1px}.emblem:after{transform:translate(-50%,-50%) rotate(90deg)}.emblem i{position:absolute;inset:10px;border:1px solid rgba(216,235,244,.8);border-radius:50%}.wordmark{font-size:12px;letter-spacing:.27em;font-weight:500;line-height:1.6}.wordmark small{display:block;font-size:9px;font-weight:400;letter-spacing:.13em;color:var(--muted)}.header-right{display:flex;align-items:center;gap:23px;pointer-events:auto}.live-mark{display:flex;align-items:center;gap:8px;font-size:9px;letter-spacing:.18em;color:#9cacb7}.live-mark i{width:4px;height:4px;border-radius:50%;background:#a4c8ce;box-shadow:0 0 9px #709ba299}.bare-button{background:transparent;padding:10px;color:#aebcc4;transition:color .2s}.bare-button:hover{color:white}
 .footer{position:fixed;z-index:5;bottom:max(28px,env(safe-area-inset-bottom));left:40px;right:40px;display:flex;align-items:flex-end;justify-content:space-between;pointer-events:none}.scene-info{padding-bottom:4px;min-width:150px}.eyebrow{font-size:9px;letter-spacing:.23em;color:#81909b;font-weight:400}.scene-title{display:flex;align-items:baseline;gap:12px;margin-top:10px;font-size:12px;font-weight:400;letter-spacing:.13em}.scene-title .number{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;letter-spacing:.05em;color:#738490}.scene-en{color:#bac7cf;font-size:10px;letter-spacing:.14em}.footer-note{width:170px;text-align:right;color:#71818e;font-size:9px;letter-spacing:.13em;line-height:1.9;padding-bottom:3px}.footer-note span{display:block;color:#a3b1b9;font-size:10px;letter-spacing:.06em}
-.control-wrap{position:fixed;z-index:10;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:360px}.dock{display:flex;align-items:center;justify-content:center;gap:5px;padding:8px;border-radius:99px;border:1px solid var(--line);background:linear-gradient(155deg,rgba(43,58,69,.47),rgba(9,17,23,.65));-webkit-backdrop-filter:blur(24px) saturate(120%);backdrop-filter:blur(24px) saturate(120%);box-shadow:0 8px 30px #0004,inset 0 1px 0 #ffffff0d}.icon-button{width:37px;height:37px;display:grid;place-items:center;background:transparent;border-radius:50%;color:#a9b8c3;transition:color .2s,background .2s,transform .2s}.icon-button:hover{background:#d0e8f110;color:#f4f8fb}.icon-button:active{transform:scale(.93)}.icon-button[aria-expanded=true]{background:#d0e8f11c;color:#fff}.divider{width:1px;height:17px;background:#cadbe416;margin:0 3px}.seek-wrap{position:relative;margin:0 14px 11px;padding:7px 0 6px;display:flex;align-items:center;gap:12px}.time{font-size:9px;letter-spacing:.05em;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#7e909f;min-width:32px;font-variant-numeric:tabular-nums}.time:last-child{text-align:right}
+.control-wrap{position:fixed;z-index:10;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:360px}.dock{display:flex;align-items:center;justify-content:center;gap:5px;padding:8px;border-radius:99px;border:1px solid var(--line);background:linear-gradient(155deg,rgba(43,58,69,.47),rgba(9,17,23,.65));-webkit-backdrop-filter:blur(24px) saturate(120%);backdrop-filter:blur(24px) saturate(120%);box-shadow:0 8px 30px #0004,inset 0 1px 0 #ffffff0d}.icon-button{width:37px;height:37px;display:grid;place-items:center;background:transparent;border-radius:50%;color:#a9b8c3;transition:color .2s,background .2s,transform .2s}.icon-button:hover{background:#d0e8f110;color:#f4f8fb}.icon-button:active{transform:scale(.93)}.icon-button[aria-expanded=true]{background:#d0e8f11c;color:#fff}.icon-button[aria-pressed=true]{background:#d8eff321;color:#f4fbff;box-shadow:inset 0 1px 0 #ffffff18,0 0 18px #a8dce522}.divider{width:1px;height:17px;background:#cadbe416;margin:0 3px}.seek-wrap{position:relative;margin:0 14px 11px;padding:7px 0 6px;display:flex;align-items:center;gap:12px}.time{font-size:9px;letter-spacing:.05em;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#7e909f;min-width:32px;font-variant-numeric:tabular-nums}.time:last-child{text-align:right}
 .scroll-hint{position:fixed;z-index:4;left:50%;bottom:137px;transform:translateX(-50%);display:flex;align-items:center;gap:10px;color:#92a3ad;letter-spacing:.16em;font-size:10px;pointer-events:none;white-space:nowrap;transition:opacity .4s}.scroll-hint svg{width:14px;height:18px;stroke:currentColor;fill:none;stroke-width:1.2}.scroll-hint .scroll-dot{opacity:.8}
 #settings{position:absolute;bottom:104px;left:0;right:0;padding:24px;border:1px solid #c8dfef20;border-radius:21px;background:linear-gradient(140deg,rgba(30,42,51,.94),rgba(8,16,22,.96));-webkit-backdrop-filter:blur(32px);backdrop-filter:blur(32px);box-shadow:0 18px 70px #0007;transform-origin:50% 100%;animation:panelIn .2s ease-out}@keyframes panelIn{from{opacity:0;transform:translateY(8px) scale(.97)}to{opacity:1;transform:none}}.panel-head{display:flex;justify-content:space-between;align-items:center;margin:-5px -7px 19px 0}.panel-head h2{font-size:14px;letter-spacing:.14em;font-weight:500;margin:0}.panel-head .icon-button{width:29px;height:29px}.field-label{font-size:11px;color:#afc0cb;letter-spacing:.05em;display:flex;justify-content:space-between;align-items:center;margin:0 0 10px}.value{font-variant-numeric:tabular-nums;color:#c7d8e3;font-size:10px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.text-row{display:flex;gap:7px}.text-row input{width:100%;min-width:0;border:1px solid #b8d0e123;background:#040b1266;color:#eef4f8;border-radius:9px;padding:10px 12px;font-size:14px}.apply-button{flex:0 0 58px;border:1px solid #c7e3ef29;background:#e3f3ff12;border-radius:9px;font-size:11px;color:#d5e6f0}.apply-button:hover{background:#e3f3ff25}.field-help{font-size:10px;color:#8194a2;line-height:1.7;margin:9px 0 20px}.setting-row{margin-top:19px}.setting-range{width:100%;height:3px;accent-color:#c0d9e6;margin:2px 0 7px;cursor:pointer}.quality-buttons{display:flex;gap:7px}.quality-buttons button{flex:1;padding:9px 3px;background:#0710194d;border:1px solid #c8dfef1a;border-radius:8px;color:#899ba8;font-size:11px}.quality-buttons button[aria-pressed=true]{background:#c2dbe71b;border-color:#d1eafa4d;color:#e5eff4}.panel-bottom{margin-top:20px;padding-top:15px;border-top:1px solid #d6e8f011;display:flex;align-items:center;justify-content:space-between;font-size:9px;color:#708494;letter-spacing:.06em}.reset-button{background:none;padding:4px;color:#b7c9d4;font-size:10px}.reset-button:hover{color:white}
 #reveal-ui{position:fixed;z-index:12;right:22px;bottom:max(22px,env(safe-area-inset-bottom));width:40px;height:40px;display:none;place-items:center;border:1px solid #d6ecff1a;border-radius:50%;background:#16232c55;color:#d0dfe8;opacity:.08;transition:opacity .3s;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}#reveal-ui:hover,#reveal-ui:focus-visible{opacity:1}body.cinema .chrome{opacity:0;pointer-events:none!important}body.cinema .chrome *{pointer-events:none!important}body.cinema #reveal-ui{display:grid}body.cinema .scroll-hint{opacity:0}.toast{position:fixed;z-index:25;left:50%;top:100px;transform:translate(-50%,-10px);opacity:0;pointer-events:none;padding:11px 18px;white-space:nowrap;border:1px solid #c8dfe326;border-radius:30px;background:#15232bee;-webkit-backdrop-filter:blur(15px);backdrop-filter:blur(15px);color:#d5e5ef;font-size:11px;transition:opacity .25s,transform .25s}.toast.visible{opacity:1;transform:translate(-50%,0)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -132,6 +132,10 @@
  <nav class="dock" aria-label="捲動與畫面設定">
   <div class="scroll-badge"><svg viewBox="0 0 16 23" aria-hidden="true"><rect x="3.5" y="1" width="9" height="17" rx="4.5"/><path d="M8 5v3m-3 12 3 2 3-2"/></svg><span>捲動成形</span></div>
   <span class="divider" aria-hidden="true"></span>
+  <button type="button" id="autoplay-toggle" class="icon-button" title="自動循環播放（P）" aria-label="開始自動循環播放" aria-pressed="false">
+   <svg id="autoplay-play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7z"/></svg>
+   <svg id="autoplay-pause-icon" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="M9 5v14M15 5v14"/></svg>
+  </button>
   <button type="button" id="replay" class="icon-button" title="回到頂端（R）" aria-label="回到頂端，重新聚合"><svg viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1.1 7M4 4v6h6"/></svg></button>
   <button type="button" id="settings-toggle" class="icon-button" title="星光設定" aria-label="開啟星光設定" aria-expanded="false" aria-controls="settings"><svg viewBox="0 0 24 24"><path d="M4 7h5m5 0h6M4 17h10m5 0h1"/><circle cx="11.5" cy="7" r="2.5"/><circle cx="16.5" cy="17" r="2.5"/></svg></button>
   <button type="button" id="cinema" class="icon-button" title="純畫面（H）" aria-label="隱藏介面，切換純畫面"><svg viewBox="0 0 24 24"><path d="M3 7V3h4m10 0h4v4M3 17v4h4m10 0h4v-4"/><circle cx="12" cy="12" r="2"/></svg></button>
@@ -142,7 +146,7 @@
 <div id="boot" aria-hidden="true"><div class="boot-star"></div></div>
 <noscript><div class="no-js">這個互動星空需要啟用 JavaScript。<br>請在瀏覽器中開啟此 HTML 檔案。</div></noscript>
 <script>
-/* STARFORM v11.0 — adaptive explicit population + per-star pointer response.
+/* STARFORM v14.0 — adaptive particles + pointer response + optional slow autoplay loop.
  * Count changes ONLY by configuration / viewport resize, never by scroll or hover.
  * The deterministic population cache preserves existing IDs when the count changes.
  * Fixed base styles, temporary pointer highlights, ONE draw of the population per frame.
@@ -891,6 +895,63 @@ function updateScrollDistance(p=state.p){
  setProgress(p);
 }
 function replay(){setProgress(0);}
+
+// Optional autoplay: it only drives the SAME scroll progress the user controls manually.
+// One slow loop: starfield → 62 → return home → 僑光 → fireworks → restart.
+const AUTOPLAY_KEYFRAMES=[
+ {t:0,p:0},{t:1.8,p:0},
+ {t:8.2,p:.34},{t:10.8,p:.34},
+ {t:16.0,p:.60},
+ {t:23.8,p:.95},{t:25.2,p:1},
+ {t:33.0,p:1}
+];
+const AUTOPLAY_DURATION=AUTOPLAY_KEYFRAMES[AUTOPLAY_KEYFRAMES.length-1].t;
+const autoplayState={active:false,elapsed:0,cycles:0};
+function autoEase(t){t=clamp(t);return .5-.5*Math.cos(Math.PI*t);}
+function autoplayProgressAt(seconds){
+ const t=clamp(seconds,0,AUTOPLAY_DURATION);
+ for(let i=1;i<AUTOPLAY_KEYFRAMES.length;i++){
+  const a=AUTOPLAY_KEYFRAMES[i-1],b=AUTOPLAY_KEYFRAMES[i];
+  if(t<=b.t){const span=Math.max(.0001,b.t-a.t),u=(t-a.t)/span;return mix(a.p,b.p,a.p===b.p?u:autoEase(u));}
+ }
+ return 1;
+}
+function syncAutoplayButton(){
+ const button=$('autoplay-toggle');if(!button)return;
+ button.setAttribute('aria-pressed',String(autoplayState.active));
+ button.setAttribute('aria-label',autoplayState.active?'停止自動循環播放':'開始自動循環播放');
+ button.title=autoplayState.active?'停止自動播放（P）':'自動循環播放（P）';
+ $('autoplay-play-icon').hidden=autoplayState.active;
+ $('autoplay-pause-icon').hidden=!autoplayState.active;
+}
+function setAutoplay(value,{restart=false,quiet=false}={}){
+ const next=Boolean(value);
+ if(next){
+  if(restart||state.p>=.999){autoplayState.elapsed=0;setProgress(0);}
+  else if(!autoplayState.active){
+   // Resume from the closest point in the automatic timeline.
+   let best=0,dist=Infinity;
+   for(let i=0;i<=330;i++){const t=i/10,d=Math.abs(autoplayProgressAt(t)-state.p);if(d<dist){dist=d;best=t;}}
+   autoplayState.elapsed=best;
+  }
+  autoplayState.active=true;lastFrameStamp=null;
+ }else autoplayState.active=false;
+ syncAutoplayButton();requestRender();
+ if(!quiet)notify(autoplayState.active?'已開始自動循環播放':'已停止自動播放，可繼續手動捲動');
+ return autoplayState.active;
+}
+function toggleAutoplay(){setAutoplay(!autoplayState.active,{restart:!autoplayState.active&&state.p>=.999});}
+function advanceAutoplay(dt){
+ if(!autoplayState.active||dt<=0)return;
+ autoplayState.elapsed+=dt;
+ if(autoplayState.elapsed>=AUTOPLAY_DURATION){
+  autoplayState.elapsed%=AUTOPLAY_DURATION;autoplayState.cycles++;
+  setProgress(0);fireworks.suspend();
+ }
+ const p=autoplayProgressAt(autoplayState.elapsed);
+ const y=p*maxScroll();
+ if(Math.abs((window.scrollY||window.pageYOffset||0)-y)>.5)window.scrollTo({top:y,left:0,behavior:'auto'});
+}
 function setCinema(value){
  state.cinema=Boolean(value);document.body.classList.toggle('cinema',state.cinema);
  // Hidden controls must not remain keyboard focus targets.
@@ -954,7 +1015,8 @@ function updateHUD(){
 }
 async function fullscreen(){try{if(document.fullscreenElement){await document.exitFullscreen();}else if(document.webkitFullscreenElement){document.webkitExitFullscreen();}else if(document.documentElement.requestFullscreen){await document.documentElement.requestFullscreen();}else if(document.documentElement.webkitRequestFullscreen){document.documentElement.webkitRequestFullscreen();}else{setCinema(true);notify('已切換純畫面；此瀏覽器未提供網頁全螢幕。');}}catch(e){setCinema(true);notify('已切換純畫面。');}}
 
-$('replay').addEventListener('click',replay);
+$('autoplay-toggle').addEventListener('click',toggleAutoplay);
+$('replay').addEventListener('click',()=>{setAutoplay(false,{quiet:true});replay();});
 $('cinema').addEventListener('click',()=>setCinema(true));
 $('reveal-ui').addEventListener('click',()=>setCinema(false));
 $('settings-toggle').addEventListener('click',()=>setSettings($('settings').hidden));
@@ -984,7 +1046,7 @@ $('reset-settings').addEventListener('click',()=>{
  settings={...defaults};if(motionPreference&&motionPreference.matches){settings.flowSpeed=0;settings.skySpeed=0;}fireworks.setEnabled(!Boolean(motionPreference&&motionPreference.matches));lastFrameStamp=null;save();syncSettings();buildParticles();updateScrollDistance(0);notify('已恢復：自動星星數量、背景保留32%、游標互動與流動星海。');
 });
 document.addEventListener('pointerdown',e=>{if(!$('control-wrap').contains(e.target)&&!$('settings').hidden)setSettings(false);},{passive:true});
-// Native wheel, trackpad and touch scrolling. No scroll hijacking or simulated autoplay.
+// Native wheel, trackpad and touch scrolling remain available whenever autoplay is off.
 window.addEventListener('scroll',requestRender,{passive:true});
 window.addEventListener('resize',()=>{
  if(resizeQueued)return;
@@ -998,7 +1060,8 @@ document.addEventListener('keydown',e=>{
  if(e.key==='Escape'){setSettings(false);setCinema(false);return;}
  const active=document.activeElement;
  if((active&&(/INPUT|TEXTAREA|SELECT/.test(active.tagName)||active.isContentEditable))||e.ctrlKey||e.altKey||e.metaKey)return;
- if(e.key.toLowerCase()==='r'){e.preventDefault();replay();}
+ if(e.key.toLowerCase()==='r'){e.preventDefault();setAutoplay(false,{quiet:true});replay();}
+ else if(e.key.toLowerCase()==='p'){e.preventDefault();toggleAutoplay();}
  else if(e.key.toLowerCase()==='h')setCinema(!state.cinema);
  else if(e.key.toLowerCase()==='f')fullscreen();
  // Space, PageDown/Up, arrows, Home and End retain native page scrolling.
@@ -1023,35 +1086,36 @@ function renderFrame(stamp){
  const now=Number.isFinite(stamp)?stamp:performance.now();
  const dt=lastFrameStamp===null?0:Math.min(.08,Math.max(0,(now-lastFrameStamp)/1000));
  lastFrameStamp=now;
- // Local motion ONLY. Chapter progress never receives clock time.
+ // Local motion ONLY. Chapter progress changes by native scroll or the optional autoplay button.
  state.flowTime+=dt*settings.flowSpeed;state.skyTime+=dt*settings.skySpeed;advanceHover(dt);
+ advanceAutoplay(dt);
  const next=readProgress(),changed=next!==state.p;
  state.p=state.target=next;updateTimeline();
  fireworks.syncBottom();fireworks.update(dt);
  // 30 fps for idle software fallback; native scrolling stays responsive.
- if(render2D&&(settings.flowSpeed>0||settings.skySpeed>0||fireworks.busy()||hoverBusy())&&!changed&&state.ready&&now-lastPaintStamp<32){requestRender();return;}
+ if(render2D&&(autoplayState.active||settings.flowSpeed>0||settings.skySpeed>0||fireworks.busy()||hoverBusy())&&!changed&&state.ready&&now-lastPaintStamp<32){requestRender();return;}
  if(render2D)drawCanvas();else if(gl)drawGL();else return;
  fireworks.draw();lastPaintStamp=now;frameCount++;updateHUD();
  if(!state.ready){
   state.ready=true;const boot=$('boot');
   if(boot){boot.style.opacity='0';setTimeout(()=>boot.remove(),850);}
  }
- if(settings.flowSpeed>0||settings.skySpeed>0||fireworks.busy()||hoverBusy())requestRender();
+ if(autoplayState.active||settings.flowSpeed>0||settings.skySpeed>0||fireworks.busy()||hoverBusy())requestRender();
 }
 
 
 try{
  if(qs.get('renderer')==='canvas')initFallback();
  else{try{initGL();}catch(error){console.info('Using Canvas 2D fallback:',error.message);initFallback();}}
- buildParticles();resize();syncSettings();setCinema(state.cinema);updateScrollDistance(initialProgress);requestRender();
+ buildParticles();resize();syncSettings();syncAutoplayButton();setCinema(state.cinema);updateScrollDistance(initialProgress);requestRender();
 }catch(error){
  console.error(error);const boot=$('boot');if(boot)boot.style.opacity='0';
  notify('無法初始化繪圖引擎，請用完整瀏覽器開啟此檔案。');
 }
 // Same-origin embedding API. There is no auto mode and no play() method.
 window.Starform={
- getState:()=>({version:'13.0-more-irregular-gather',mode:'scroll',paused:true,autoplay:false,progress:state.p,phase:state.time,chapter:state.timeline?.key,formation:state.timeline?.amount,targetText:state.timeline?.targetIndex===1?settings.finalGlyph:settings.glyph,sequence:['星海',settings.glyph,'解散歸位',settings.finalGlyph,'煙火'],edgeStyle:'irregular-flowing-stardust',appearance:'fixed-base-with-local-hover',backgroundStars:numBackground,formingStars:particleCount-numBackground,autoCount:settings.autoCount,recommendedStars:recommendedCount(),starLimit:MAX_STARS,hover:{enabled:settings.hover,active:hoverState.power>.01,power:hoverState.power,radius:settings.hoverRadius,x:hoverState.x*w,y:hoverState.y*h},flowTime:state.flowTime,flowPlaying:settings.flowSpeed>0,skyTime:state.skyTime,skyFlowPlaying:settings.skySpeed>0,skyMotion:'bounded-layered-current',transition:'return-to-original-sky',returnPosition:'original-per-star-anchor',returnProgress:TIMING.homePoint,populationRevision:state.populationRevision,drawnStars:state.lastDrawCount,particlePasses:state.particlePasses,frameCount,engine:state.engine,particles:state.count,ready:state.ready,fireworks:fireworks.getState(),settings:{...settings,fireworks:fireworks.isEnabled()}}),
- setProgress,replay,setText:changeGlyph,setSequence:changeSequence,setCinema,setFireworks:value=>fireworks.setEnabled(value),
+ getState:()=>({version:'14.0-autoplay-loop',mode:autoplayState.active?'autoplay':'scroll',paused:!autoplayState.active,autoplay:autoplayState.active,autoplayElapsed:autoplayState.elapsed,autoplayDuration:AUTOPLAY_DURATION,autoplayCycles:autoplayState.cycles,progress:state.p,phase:state.time,chapter:state.timeline?.key,formation:state.timeline?.amount,targetText:state.timeline?.targetIndex===1?settings.finalGlyph:settings.glyph,sequence:['星海',settings.glyph,'解散歸位',settings.finalGlyph,'煙火'],edgeStyle:'irregular-flowing-stardust',appearance:'fixed-base-with-local-hover',backgroundStars:numBackground,formingStars:particleCount-numBackground,autoCount:settings.autoCount,recommendedStars:recommendedCount(),starLimit:MAX_STARS,hover:{enabled:settings.hover,active:hoverState.power>.01,power:hoverState.power,radius:settings.hoverRadius,x:hoverState.x*w,y:hoverState.y*h},flowTime:state.flowTime,flowPlaying:settings.flowSpeed>0,skyTime:state.skyTime,skyFlowPlaying:settings.skySpeed>0,skyMotion:'bounded-layered-current',transition:'return-to-original-sky',returnPosition:'original-per-star-anchor',returnProgress:TIMING.homePoint,populationRevision:state.populationRevision,drawnStars:state.lastDrawCount,particlePasses:state.particlePasses,frameCount,engine:state.engine,particles:state.count,ready:state.ready,fireworks:fireworks.getState(),settings:{...settings,fireworks:fireworks.isEnabled()}}),
+ setProgress,replay,setAutoplay,toggleAutoplay,setText:changeGlyph,setSequence:changeSequence,setCinema,setFireworks:value=>fireworks.setEnabled(value),
  ...(qs.get('debug')==='1'?{debug:{snapshot:particleSnapshot,sequence:sequenceAt}}:{}),
  setOptions:options=>{
   if(!options||typeof options!=='object')return;
